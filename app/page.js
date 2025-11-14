@@ -110,12 +110,12 @@ export default function StudyShack() {
         className="fixed inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{
           backgroundImage: 'url(/studyshack.png)',
-          filter: 'brightness(0.4)'
+          filter: 'brightness(0.7)'
         }}
       ></div>
 
       {/* Overlay for readability */}
-      <div className="fixed inset-0 bg-gradient-to-br from-orange-950/80 via-orange-900/75 to-amber-900/80 z-0"></div>
+      <div className="fixed inset-0 bg-gradient-to-br from-orange-950/50 via-orange-900/45 to-amber-900/50 z-0"></div>
 
       <div className="relative z-10">
         {currentView === 'home' && (
