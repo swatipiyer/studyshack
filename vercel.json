@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "FRIENDLI_API_KEY": "@friendli_api_key"
+  }
+}
